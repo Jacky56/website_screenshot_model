@@ -11,8 +11,6 @@ from tensorflow.keras.callbacks import ModelCheckpoint, TensorBoard
 from tensorflow.keras.utils import plot_model
 from typing import *
 
-
-
 class vgg():
     model = None
     checkpoint = None
